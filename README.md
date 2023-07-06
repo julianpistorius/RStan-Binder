@@ -1,6 +1,17 @@
 # RStan + Binder
 
-You can try it :
+**IMPORTANT:** Until the MyBinder service upgrades to Ubuntu 22 (soon!) you'll have to build the container yourself using [repo2docker](https://repo2docker.readthedocs.io/en/latest/install.html):
+
+```
+python3 -m pip install jupyter-repo2docker
+git clone https://github.com/julianpistorius/RStan-Binder.git
+cd RStan-Binder
+repo2docker --Repo2Docker.base_image=docker.io/library/buildpack-deps:jammy .
+```
+
+---
+
+You can try it with the following buttons (once MyBinder uses Ubuntu 22 - see above):
 
 Jupyter+R: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/julianpistorius/RStan-Binder/master?filepath=README.md)
 
