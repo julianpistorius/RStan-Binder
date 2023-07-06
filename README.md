@@ -2,7 +2,9 @@
 
 You can try it :
 
-[![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/binder/v2/gh/arnim/RStan-Binder/master?urlpath=lab/tree/README.md)
+Jupyter+R: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/julianpistorius/RStan-Binder/master?filepath=README.md)
+
+RStudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/julianpistorius/RStan-Binder/master?urlpath=rstudio)
 
 ## What is Stan?
 **[Stan](http://mc-stan.org/)** is an probabilistic programming language. Probabilistic programming languages are languages designed to describe probabilistic models as well as perform the necessary inferential computation.
